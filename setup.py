@@ -6,8 +6,7 @@ version = '0.1'
 setup(name='CodeClubExamples',
       version=version,
       description="CodeClub Examples",
-      long_description="""\
-CodeClub examples""",
+      long_description="""CodeClub examples""",
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='',
       author='codeclub',
@@ -21,6 +20,7 @@ CodeClub examples""",
           # -*- Extra requirements: -*-
       ],
       entry_points="""
-      # -*- Entry points: -*-
+      [console_scripts]
+      inputtest=ccex:taunter
       """,
       )

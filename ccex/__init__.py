@@ -1,8 +1,10 @@
-#
+"""
+A program to taunt
+"""
 
-def inputtest(prompt='>>>'):
+def taunter(prompt='>>>'):
     name = raw_input('>>>')
-    print name
+    print "I know you are a %s... but what am I?" %name
 
 if __name__ == "__main__":
-    inputtest()
+    taunter()
